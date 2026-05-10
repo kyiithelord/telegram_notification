@@ -1,0 +1,26 @@
+{
+    "name": "Telegram Notification Center",
+    "version": "19.0.1.0.0",
+    "summary": "Send Telegram alerts for key business events",
+    "category": "Tools",
+    "author": "thetzin",
+    "license": "LGPL-3",
+    "external_dependencies": {"python": ["requests"]},
+    "depends": [
+        "base",
+        "mail",
+        "sale_management",
+        "purchase",
+        "account",
+        "stock",
+        "crm",
+        "hr_attendance",
+    ],
+    "data": [
+        "security/ir.model.access.csv",
+        "data/ir_cron.xml",
+        "views/res_config_settings_views.xml",
+    ],
+    "installable": True,
+    "application": False,
+}
