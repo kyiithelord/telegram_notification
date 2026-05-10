@@ -4,6 +4,7 @@ Telegram Notification Center is a custom Odoo 19 Community module that sends bus
 
 ## Features
 
+
 This module sends Telegram notifications for:
 
 - Sale Order Confirmed
