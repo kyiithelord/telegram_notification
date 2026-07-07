@@ -5,6 +5,20 @@
     "category": "Tools",
     "author": "thetzin",
     "license": "LGPL-3",
+    "description": """
+                        <p>
+                            Telegram Notification Center sends Telegram alerts for key Odoo business events
+                            such as sales, purchases, invoices, stock, CRM leads, and attendance.
+                        </p>
+                        <ul>
+                            <li>Sale and purchase order notifications</li>
+                            <li>Invoice payment alerts</li>
+                            <li>Scheduled reminders for due invoices and low stock</li>
+                            <li>CRM lead assignment notifications</li>
+                            <li>Attendance alerts</li>
+                        </ul>
+                   """,
+    "images": ["static/description/cover.png"],
     "external_dependencies": {"python": ["requests"]},
     "depends": [
         "base",
